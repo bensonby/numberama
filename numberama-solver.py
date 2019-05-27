@@ -122,7 +122,7 @@ input_grid = "1234567891866582"
 # input_grid = "1234567891235673215555555555"
 # input_grid = "1234567891112131415161718"
 # input_grid = "7257559686211582918579776"
-# input_grid = input()
+input_grid = input()
 grid = [int(x) for x in list(input_grid)]
 solve([{ 'moves': [], 'values': grid }])
 print_grid(grid)
